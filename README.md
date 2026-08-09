@@ -20,61 +20,10 @@ This project includes implementations of classic CPU scheduling algorithms:
 - **SJF** (Shortest Job First)
 - **Priority Scheduling**
 - **Round Robin**
-- And more...
 
-## Prerequisites
 
-- C++ compiler (C++11 or later)
-- Linux/Unix environment or Windows with appropriate build tools
 
-## Building the Project
 
-```bash
-g++ -o scheduler *.cpp
-```
-
-## Usage
-
-Run the compiled executable:
-
-```bash
-./scheduler
-```
-
-Follow the on-screen prompts to select a scheduling algorithm and input process information.
-
-## Project Structure
-
-```
-CPU-Scheduling-Project/
-├── README.md
-├── *.cpp          # C++ source files implementing scheduling algorithms
-└── *.h            # Header files with algorithm definitions
-```
-
-## Learning Outcomes
-
-After working with this project, you'll understand:
-
-- How different scheduling algorithms work
-- The trade-offs between various scheduling strategies
-- Performance metrics like average waiting time and turnaround time
-- How operating systems manage process execution
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Submit bug reports
-- Suggest improvements
-- Add new scheduling algorithms
-
-## License
-
-This project is provided as-is for educational purposes.
-
-## Author
-
-Created by: Ananya Mangal (@mananagarwal417)
 
 ---
 
